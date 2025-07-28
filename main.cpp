@@ -48,7 +48,14 @@ string get_response(const string& input) {
         {{"type"},"oOoh u mean you love ice spice??"},
         {{"capital of france"},"hanoi"},
         {{"are","ai"},"no. im made by flint and steel"},
-        {{"who", "invented the light bulb"}, "diddy h. buld made the ugliest liaghpt bulk"}
+        {{"who", "invented the light bulb"}, "diddy h. buld made the ugliest liaghpt bulk"},
+        {{"sybau"}, "exkcuoause me u japanese? :)"},
+        {{"ts", "pmo"}, "language language!"},
+        {{"old", "i"}, "ou ne illon ol\n(translation: you are one million years old)"},
+        {{"who", "invented", "first", "car"}, "eloune muksce"},
+        {{"old","you"}, "i was just born in nowhereland :O"},
+        {{"you", "brother"}, "can you spek pwowdwewr iimmmqa ojdhe fhfh33jhf f79r123/????"},
+        {{"1","+","1"}, "3? to er is healman"},
     };
 
     string lowered_input = toLower(input);
