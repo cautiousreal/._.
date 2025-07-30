@@ -26,12 +26,12 @@ bool contains_all_keywords(const string& input, const vector<string>& keywords) 
 
 string get_response(const string& input) {
     static vector<Response> knowledge = {
-        {{"hello"}, "ello there baby"},
-        {{"hi"}, "oh"},
-        {{"heya"}, "haha im peta griftein"},
-        {{"how", "are", "you"}, "me suck at coding"},
-        {{"how", "r", "u"}, "me suck at"},
-        {{"what", "name"}, "i have 22"},
+        {{"hello"}, "hi!"},
+        {{"hi"}, "oh hi!"},
+        {{"heya"}, "what's up?"},
+        {{"how", "are", "you"}, "im fine. how about you?"},
+        {{"how", "r", "u"}, "great."},
+        {{"what", "name"}, "my name is ._."},
         {{"ur", "name"}, "twen-"},
         {{"bye"}, "hello there i'm quandale dingle"},
         {{"see", "ya"}, "see ya later"},
@@ -66,14 +66,14 @@ string get_response(const string& input) {
         }
     }
 
-    return "e\nthis sentence is not programmed (maybe). submit feedback in issues here:\nhttps://www.github.com/pinn1s/baka";
+    return "e\nthis sentence is not programmed (maybe). submit feedback in issues here:\nhttps://www.github.com/cautiousreal/._.";
 }
 
 int main() {
     string user_input;
 
-    cout << "BAKA v1 (aka STUPIDEST AI EVER KNOWN TO MANKIND)\n";
-    cout << "type 'exit' to give up talking\nWARNING: this bot may say random, unfiltered, possibly offensive or nsfw stuff. use at your own risk.\n\n";
+    cout << "._. v1 (aka OPPOSITE OF BAKA)\n";
+    cout << "type 'exit' to give up talking\noriginal work: https://www.github.com/pinn1s/baka\n\n";
 
     while (true) {
         cout << "you: ";
@@ -82,7 +82,7 @@ int main() {
         if (toLower(user_input) == "exit") break;
 
         string response = get_response(user_input);
-        cout << "baka: " << response << "\n";
+        cout << "._.: " << response << "\n";
     }
 
     cout << "bye\ngive up alr? :(";
